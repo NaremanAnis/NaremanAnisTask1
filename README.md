@@ -28,39 +28,39 @@ This project follows the Git Flow branching model, which includes the following 
 - **release/v1.0**: A branch for preparing a new release.
 - **hotfix/security-fix**: A branch for applying urgent fixes.
 
-### Git Commands Used
+### Git Commands Used:
 
 1. **Clone the repository**:
-#git clone https://github.com/NaremanAnis/NaremanAnisTask1.git
-#cd NaremanAnistask1
+1.1.git clone https://github.com/NaremanAnis/NaremanAnisTask1.git
+1.2.cd NaremanAnistask1
 
 2.**Create branches**
-#git checkout -b main
-#git checkout -b development
+2.1.git checkout -b main
+2.2.git checkout -b development
 
 3.**Add initial content**
-#echo "Initial content" > f1
-#git add f1
-#git commit -m "Add initial content to f1"
+3.1.echo "Initial content" > f1
+3.2.git add f1
+3.3.git commit -m "Add initial content to f1"
 
 4.**Create feature branch**
-#git checkout -b feature/login
+4.1.git checkout -b feature/login
 
 5.**Implement login functionality**
-#echo "Implement the login functionality" >> f1
-#git add f1
-#git commit -m "Implement the login functionality"
+5.1.echo "Implement the login functionality" >> f1
+5.2git add f1
+5.3.git commit -m "Implement the login functionality"
 
 6.**Merge feature branch**
-#git checkout development
-#git merge feature/login --no-ff
+6.1.git checkout development
+6.2.git merge feature/login --no-ff
 
 7.**to delete the Feature Branch**
-#git branch -d feature/login
+7.1.git branch -d feature/login
 
 8.**create a release branch**
-#git checkout -b release/v1.0
+8.1.git checkout -b release/v1.0
 
 9.**Create hotfix branch**
-#git checkout -b hotfix/security-fix
+9.1.git checkout -b hotfix/security-fix
 
