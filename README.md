@@ -31,36 +31,36 @@ This project follows the Git Flow branching model, which includes the following 
 ### Git Commands Used
 
 1. **Clone the repository**:
-git clone https://github.com/NaremanAnis/NaremanAnisTask1.git
-cd NaremanAnistask1
+#git clone https://github.com/NaremanAnis/NaremanAnisTask1.git
+#cd NaremanAnistask1
 
 2.**Create branches**
-git checkout -b main
-git checkout -b development
+#git checkout -b main
+#git checkout -b development
 
 3.**Add initial content**
-echo "Initial content" > f1
-git add f1
-git commit -m "Add initial content to f1"
+#echo "Initial content" > f1
+#git add f1
+#git commit -m "Add initial content to f1"
 
 4.**Create feature branch**
-git checkout -b feature/login
+#git checkout -b feature/login
 
 5.**Implement login functionality**
-echo "Implement the login functionality" >> f1
-git add f1
-git commit -m "Implement the login functionality"
+#echo "Implement the login functionality" >> f1
+#git add f1
+#git commit -m "Implement the login functionality"
 
 6.**Merge feature branch**
-git checkout development
-git merge feature/login --no-ff
+#git checkout development
+#git merge feature/login --no-ff
 
 7.**to delete the Feature Branch**
-git branch -d feature/login
+#git branch -d feature/login
 
 8.**create a release branch**
-git checkout -b release/v1.0
+#git checkout -b release/v1.0
 
 9.**Create hotfix branch**
-git checkout -b hotfix/security-fix
+#git checkout -b hotfix/security-fix
 
